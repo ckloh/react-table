@@ -108,7 +108,7 @@ class SortableTbl extends React.Component{
 						{ this.props.search && 
 							(
 								<div className="search-box">
-									Search: <input className="search" type="text" name="" value={this.state.filter} placeholder="Filter Result" onChange={this.filter} />
+									<input className="search" type="text" name="" value={this.state.filter} placeholder="Search" onChange={this.filter} />
 								</div>
 							)}
 						{
